@@ -1,0 +1,18 @@
+@import 'fonts';
+@import 'mixins';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.bg-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
