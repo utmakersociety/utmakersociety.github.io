@@ -2,7 +2,26 @@
   #header {
     height: 400px;
     h1 {
+      top: 65% !important;
       font-size: 2em !important;
+    }
+  }
+
+  #content {
+    padding: 0 !important;
+    font-size: 1.2em !important;
+  }
+
+  .hours {
+    padding: 10px 0;
+  }
+  #nav {
+    top: 15%;
+  }
+  ul {
+    li {
+      height: 65px !important;
+      display: block !important;
     }
   }
 }

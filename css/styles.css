@@ -25,7 +25,22 @@ body {
   #header {
     height: 400px; }
     #header h1 {
-      font-size: 2em !important; } }
+      top: 65% !important;
+      font-size: 2em !important; }
+
+  #content {
+    padding: 0 !important;
+    font-size: 1.2em !important; }
+
+  .hours {
+    padding: 10px 0; }
+
+  #nav {
+    top: 15%; }
+
+  ul li {
+    height: 65px !important;
+    display: block !important; } }
 #header {
   text-align: center;
   height: 600px; }
@@ -72,7 +87,7 @@ body {
   background-size: cover; }
 
 #content {
-  height: 800px;
+  height: 1300px;
   padding: 1% 5%;
   font-size: 1.5em; }
   #content .pure-g {
@@ -84,16 +99,15 @@ body {
     text-align: center; }
 
 .hours {
-  width: 50%;
-  margin: 0 auto;
-  list-style: none; }
-  .hours li {
-    margin: 10px 0;
-    text-align: left; }
+  text-align: center; }
 
 #footer {
+  clear: both;
   height: 100px;
-  background: #111; }
+  background: #111;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
   #footer p {
     color: #fff;
     position: relative;
