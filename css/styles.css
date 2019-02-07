@@ -120,4 +120,15 @@ body {
     transform: translateY(-50%);
     text-align: center; }
 
+
 /*# sourceMappingURL=styles.css.map */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.bottom-text {
+  padding: 0 0 10%; 
+}
