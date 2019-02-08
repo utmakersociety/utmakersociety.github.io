@@ -129,6 +129,19 @@ body {
   width: 65%;
 }
 
+.image-preview {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.image-live {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
 .bottom-text {
-  padding: 0 0 10%; 
+  padding: 0 0 10%;
 }
