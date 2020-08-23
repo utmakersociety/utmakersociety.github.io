@@ -145,3 +145,17 @@ body {
 .bottom-text {
   padding: 0 0 10%;
 }
+
+.second-level-list {
+  list-style-type: circle;
+  margin-left: 1em;
+}
+
+.workstation-header {
+    margin-block-end: 0em ;
+}
+
+.tools-list {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
