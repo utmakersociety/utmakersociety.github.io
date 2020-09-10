@@ -106,7 +106,7 @@ body {
 
 #footer {
   clear: both;
-  height: 100px;
+  height: 50px;
   background: #111;
   position: fixed;
   bottom: 0;
@@ -114,10 +114,10 @@ body {
   #footer p {
     color: #fff;
     position: relative;
-    top: 50%;
+    /* top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     text-align: center; }
 
 
